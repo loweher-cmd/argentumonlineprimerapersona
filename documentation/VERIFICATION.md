@@ -48,3 +48,7 @@ Godot 4.6.3 headless: **140 checks, zero failures**. Saved ceiling and wall heig
 ## Continuous HUD frame and editor visibility correction
 
 Floor/Ceiling/Walls GridMaps are now explicitly visible in the saved scene and regenerated scenes. The cached TexturedGeometry parent is hidden to prevent duplicate rendering. Existing scene values were preserved; only these four visibility flags changed. HUD top, right and bottom regions have contiguous opaque backing while the central view stays open. The log texture excludes the original input row containing the baked message icon. No desktop control was used.
+
+## Retro weapon and web publication
+
+Godot 4.6.3: 142 integration checks pass. Dagger enlarged to 340 px and first in HUD draw order, behind all panels. Wolf sprite scale raised from 0.027 to 0.033, including editor previews; combat collision retained. Web exported and uploaded with editable sources to loweher-cmd/argentumonlineprimerapersona. GitHub Pages configured for main /docs. No desktop control used; browser interaction has not been retested for this deployment.
