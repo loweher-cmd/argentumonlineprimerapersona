@@ -1,0 +1,4 @@
+game/.godot/
+references/
+__pycache__/
+*.pyc
